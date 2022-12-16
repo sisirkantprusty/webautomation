@@ -12,7 +12,7 @@ public class TC_TC1 extends TestBase {
         tc1HomePage = new TC1HomePage(dr);
         Thread.sleep(5000);
         tc1HomePage.clickAcceptAll(); // this does not work
-        tc1HomePage.clickSignOn();
+        tc1HomePage.clickSignOn(); //this works fine
 
 
         Assert.assertTrue(true);
