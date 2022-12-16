@@ -11,7 +11,7 @@ public class TC_TC1 extends TestBase {
     public void first_TC1() throws InterruptedException {
         tc1HomePage = new TC1HomePage(dr);
         Thread.sleep(5000);
-        tc1HomePage.clickAcceptAll();
+        tc1HomePage.clickAcceptAll(); // this does not work
         tc1HomePage.clickSignOn();
 
 
